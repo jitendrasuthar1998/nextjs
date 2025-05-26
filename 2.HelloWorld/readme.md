@@ -1,6 +1,3 @@
-Got it, Jitendra! Here's the **complete and properly formatted** `README.md` file content for your **Hello World Next.js App** — all within a single markdown block so you can copy and paste it directly into your repo.
-
-
 # 🚀 Hello World – Next.js App
 
 This is a simple "Hello World" application built using **Next.js** to help you get started with the framework and understand the basic project structure.
