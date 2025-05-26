@@ -1,7 +1,3 @@
-Sure, Jitendra! Below is a **detailed `README.md`** file that explains the **Next.js app project structure**, especially when you choose the `src/` directory and the **App Router** option during setup. It’s formatted perfectly for markdown — just copy and paste it into your GitHub repo.
-
----
-
 # 🧱 Understanding Next.js App Project Structure (with App Router & `src/` directory)
 
 When you create a new Next.js project with the `App Router` and `src/` directory options, the folder structure is modern, organized, and designed for scalability.
