@@ -1,7 +1,3 @@
-Absolutely, Jitendra! Here's your content converted into a **well-formatted and informative `README.md` section** about **React Server Components (RSC)** — ideal for adding to your Next.js tutorial notes repo:
-
----
-
 # ⚙️ React Server Components (RSC) in Next.js
 
 React Server Components (RSC) introduce a powerful new architecture that enhances performance and developer experience by splitting components into two distinct types:
