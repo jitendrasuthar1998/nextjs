@@ -1,4 +1,4 @@
-const comments = [{id:1, text:"Comment 1"}, {id:1, text:"Comment 2"}]
+import { comments } from "./data";
 
 export async function GET(){
     return Response.json(comments);
