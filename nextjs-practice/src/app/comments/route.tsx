@@ -1,7 +1,24 @@
 import { comments } from "./data";
+import type {NextRequest} from "next/server";
 
-export async function GET(){
-    return Response.json(comments);
+// GET method without query parameter
+
+// export async function GET(){
+//     return Response.json(comments);
+// }
+
+// GET method with query parameter
+
+export async function GET(request: NextRequest) {
+    const searchParams = request.nextUrl.searchParams;
+
+    const query = searchParams.get("query");
+
+    // console.log("query", query);
+
+    const filteredComments = query ? comments.filter((comment)=> comment.text.toLowerCase().includes(query.toLowerCase())) : comments;
+
+    return Response.json(filteredComments);
 }
 
 export async function POST(request:Request){
