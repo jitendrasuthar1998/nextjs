@@ -1,8 +1,8 @@
 import React from 'react'
 
 function getRandomInt(count: number){
-  return 2;
-  // return Math.floor(Math.random() * count);
+  // return 2;
+  return Math.floor(Math.random() * count);
 }
 
 export default async function ReviewDetails({params}:{params:Promise<{productId:string, reviewId:string}>}) {
