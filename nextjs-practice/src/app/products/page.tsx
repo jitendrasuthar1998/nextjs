@@ -4,10 +4,16 @@ import Link from "next/link";
 export default async function Products() {
   // fetching data from api call like from database, and taking lot of times.
 
-  const res = await fetch("https://dummyjson.com/products");
-  const data = await res.json();
-  const products = data.products;
-
+  let products = null;
+  try {
+    const res = await fetch("https://dummyjson.com/products");  
+    const data = await res.json();
+    products = data.products;
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (error:unknown) {
+    throw new Error();
+  }
+  
   return (
     <div>
       <h1>Product list</h1>
