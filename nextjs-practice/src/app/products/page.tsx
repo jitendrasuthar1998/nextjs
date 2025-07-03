@@ -11,7 +11,7 @@ export default async function Products() {
     products = data.products;
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error:unknown) {
-    throw new Error();
+    throw new Error("error in products route");
   }
   
   return (
